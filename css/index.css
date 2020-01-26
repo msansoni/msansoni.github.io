@@ -1,0 +1,133 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: #1F2023;
+}
+
+h4 {
+    font-family: "franklin_gothic_fsdemi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+label {
+    font-size: 12px;
+    color: #8D8E8F;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 15px 35px;
+    background-color: #62918A;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.button:hover {
+    border: none;
+}
+
+.fullwidth-wrapper {
+    width: 100%;
+}
+
+.intro p {
+    margin-top: 25px;
+    color: #979797;
+    line-height: 1.4;
+}
+
+.status {
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #898974;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.half-section {
+    padding: 30px 130px;
+}
+
+@media (max-width: 1024px) {
+    h3 {
+        margin-top: 60px;
+    }
+    .half-section {
+        padding: 70px 35px;
+    }
+    .posts {
+        padding-top: 0;
+    }
+}
+
+::selection {
+    background: #D7E3E2;
+    color: #1F2023;
+}
+
+::-moz-selection {
+    background: #D7E3E2;
+    color: #1F2023;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+}
+
+ul li a i {
+    /*background: #205D7A;*/
+    /*color: #fff;*/
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+ul li a i:hover {
+    opacity: .7;
+}
+
+#vCar {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+#rThrottlePedal {
+    fill: none;
+    stroke: red;
+    stroke-width: 1.5px;
+}
+
+#pBrakeF1 {
+    fill: none;
+    stroke: white;
+    stroke-width: 1.5px;
+}
